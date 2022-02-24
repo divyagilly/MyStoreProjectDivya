@@ -36,7 +36,7 @@ public class AccountCreationPageTest extends BaseClass
 		indexPage=new IndexPage();
 		loginPage=indexPage.clickOnSignInBtn();
 		//accountCreation=loginPage.createNewAccount("divyagilly@gmail.com");
-		accountCreation=loginPage.createNewAccount(email);
+		accountCreation=loginPage.createNewAccount("divyagilly@gmail.com");
 		boolean result=accountCreation.validateAcountCreatePage();
 		Assert.assertTrue(result);
 		
