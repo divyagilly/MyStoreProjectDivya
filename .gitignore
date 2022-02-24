@@ -23,8 +23,9 @@
 hs_err_pid*
 
 target/
-test-output/
+#test-output/
 .project
 .classpath
 .settings/
-ScreenShots/
+#ScreenShots/
+Logs/
